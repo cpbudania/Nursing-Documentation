@@ -2,7 +2,7 @@
   "index": {
     "title": "Introduction",
     "type": "page",
-    "hidden": true
+    "hidden": false
   },
   "docs": {
     "title": "Fundamentals of Nursing",
