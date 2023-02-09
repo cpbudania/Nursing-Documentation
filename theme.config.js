@@ -248,12 +248,10 @@ export default {
       default:
         return (
           <a
-            href="https://vercel.com/?utm_source=swr"
-            target="_blank"
             rel="noopener"
             className="inline-flex items-center no-underline text-current font-semibold"
           >
-            <span className="mr-1">Powered by</span>
+            <span className="mr-1">Made For Educational Purposes</span>
             <span>
               <Vercel />
             </span>
