@@ -1,19 +1,4 @@
 {
   "unit-3": "Nursing as a Profession",
-  "api": "API",
-  "global-configuration": "Global Configuration",
-  "data-fetching": "Data Fetching",
-  "revalidation": "Auto Revalidation",
-  "arguments": "Arguments",
-  "mutation": "Mutation & Revalidation",
-  "error-handling": "Error Handling",
-  "conditional-fetching": "Conditional Data Fetching",
-  "pagination": "Pagination",
-  "prefetching": "Prefetching",
-  "with-nextjs": "Next.js SSG and SSR",
-  "typescript": "TypeScript",
-  "suspense": "Suspense",
-  "middleware": "Middleware",
-  "advanced": "Advanced",
-  "change-log": "Change Log"
+  "api": "API"
 }
