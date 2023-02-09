@@ -5,15 +5,15 @@
     "hidden": true
   },
   "docs": {
-    "title": "Docs",
+    "title": "Fundamentals of Nursing",
     "type": "page"
   },
   "examples": {
-    "title": "Examples",
+    "title": "Psychology",
     "type": "page"
   },
   "blog": {
-    "title": "Blog",
+    "title": "Anatomy & Physiology",
     "type": "page",
     "theme": {
       "sidebar": false
