@@ -11,12 +11,7 @@ module.exports = withNextra({
     defaultLocale: "en-US",
   },
   redirects: () => {
-    return [
-      {
-        source: "/docs",
-        destination: "/docs/getting-started",
-        statusCode: 301,
-      },
+    return [      
       {
         source: "/advanced/performance",
         destination: "/docs/advanced/performance",
@@ -31,26 +26,11 @@ module.exports = withNextra({
         source: "/docs/cache",
         destination: "/docs/advanced/cache",
         statusCode: 301,
-      },
-      {
-        source: "/docs/options",
-        destination: "/docs/api",
-        statusCode: 301
-      },
-      {
-        source: "/change-log",
-        destination: "/docs/change-log",
-        statusCode: 301,
-      },
+      },      
       {
         source: "/blog/swr-1",
         destination: "/blog/swr-v1",
         statusCode: 301,
-      },
-      {
-        source: "/docs",
-        destination: "/docs/getting-started",
-        statusCode: 302,
       },
       {
         source: "/examples",
