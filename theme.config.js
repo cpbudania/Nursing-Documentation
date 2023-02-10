@@ -247,9 +247,6 @@ export default {
             className="inline-flex items-center no-underline text-current font-semibold"
           >
             <span className="mr-1">Made For Educational Purposes</span>
-            <span>
-              <Vercel />
-            </span>
           </a>
         );
     }
