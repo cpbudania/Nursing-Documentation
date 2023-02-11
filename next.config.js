@@ -16,12 +16,7 @@ module.exports = withNextra({
         source: "/blog/swr-1",
         destination: "/blog/swr-v1",
         statusCode: 301,
-      },
-      {
-        source: "/examples",
-        destination: "/examples/basic",
-        statusCode: 302,
-      },
+      }
     ];
   },
 });
