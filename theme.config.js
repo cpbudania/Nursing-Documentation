@@ -35,7 +35,7 @@ const SEARCH_PLACEHOLDER_WITH_TRANSLATIONS = {
 };
 
 export default {
-  projectLink: "https://github.com/vercel/swr",
+  projectLink: "https://github.com/cpbudania/Nursing-Documentation",
   docsRepositoryBase: "https://github.com/vercel/swr-site/blob/master/pages",
   titleSuffix: " – SWR",
   search: true,
