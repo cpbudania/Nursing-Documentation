@@ -1,7 +1,7 @@
 import { useRouter } from "next/router";
 
 const Logo = ({ height }) => (
-  <img src="https://img.icons8.com/ios-filled/50/null/doctors-bag.png"/>
+  <img src="https://icons8.com/icon/23306/nurse-male"/>
 );
 
 const Vercel = ({ height = 20 }) => (
