@@ -37,7 +37,7 @@ const SEARCH_PLACEHOLDER_WITH_TRANSLATIONS = {
 export default {
   projectLink: "https://github.com/cpbudania/Nursing-Documentation",
   docsRepositoryBase: "https://github.com/vercel/swr-site/blob/master/pages",
-  titleSuffix: " – SWR",
+  titleSuffix: " – Nursing",
   search: true,
   unstable_flexsearch: true,
   searchPlaceholder: () => {
@@ -64,7 +64,7 @@ export default {
           className="mx-2 font-extrabold hidden md:inline select-none"
           title={"SWR: " + (TITLE_WITH_TRANSLATIONS[locale] || "")}
         >
-          SWR
+          Nursing
         </span>
       </>
     );
@@ -74,7 +74,7 @@ export default {
 
     const ogImage =
       meta.image ||
-      `https://swr-card.vercel.app${
+      `https://nursing.vercel.app${
         /\/index\.+/.test(route) ? "" : "?title=" + encodeURIComponent(title)
       }`;
 
@@ -111,14 +111,14 @@ export default {
           name="description"
           content={
             meta.description ||
-            "SWR is a React Hooks library for data fetching. SWR first returns the data from cache (stale), then sends the fetch request (revalidate), and finally comes with the up-to-date data again."
+            "This Documentation Library is Intended To Use Only For BSC Nursing Students. But There Are No Limitations Other Can Also Use For Info."
           }
         />
         <meta
           name="og:description"
           content={
             meta.description ||
-            "SWR is a React Hooks library for data fetching. SWR first returns the data from cache (stale), then sends the fetch request (revalidate), and finally comes with the up-to-date data again."
+            "This Documentation Library is Intended To Use Only For BSC Nursing Students. But There Are No Limitations Other Can Also Use For Info."
           }
         />
         <meta name="twitter:card" content="summary_large_image" />
@@ -127,119 +127,22 @@ export default {
         <meta
           name="og:title"
           content={
-            title ? title + " – SWR" : "SWR: React Hooks for Data Fetching"
+            title ? title + " – Nursing" : "Nursing: documentation"
           }
         />
         <meta name="og:image" content={ogImage} />
-        <meta name="apple-mobile-web-app-title" content="SWR" />
+        <meta name="apple-mobile-web-app-title" content="Nursing" />
       </>
     );
   },
   footerEditLink: ({ locale }) => {
     switch (locale) {
-      case "zh-CN":
-        return "在 GitHub 上编辑本页 →";
-      case "es-ES":
-        return "Edite esta página en GitHub →";
-      case "pt-BR":
-        return "Edite essa página no GitHub →";
-      case "ja":
-        return "Github で編集する →";
-      case "ko":
-        return "Github에서 이 페이지 편집하기 →";
-      case "ru":
-        return "Редактировать на GitHub →";
       default:
         return "Edit this page on GitHub →";
     }
   },
   footerText: ({ locale }) => {
     switch (locale) {
-      case "zh-CN":
-        return (
-          <a
-            href="https://vercel.com/?utm_source=swr_zh-cn"
-            target="_blank"
-            rel="noopener"
-            className="inline-flex items-center no-underline text-current font-semibold"
-          >
-            <span className="mr-2">由</span>
-            <span className="mr-2">
-              <Vercel />
-            </span>
-            驱动
-          </a>
-        );
-      case "es-ES":
-        return (
-          <a
-            href="https://vercel.com/?utm_source=swr_es-es"
-            target="_blank"
-            rel="noopener"
-            className="inline-flex items-center no-underline text-current font-semibold"
-          >
-            <span className="mr-2">Desarrollado por</span>
-            <span className="mr-2">
-              <Vercel />
-            </span>
-          </a>
-        );
-      case "pt-BR":
-        return (
-          <a
-            href="https://vercel.com/?utm_source=swr_es-es"
-            target="_blank"
-            rel="noopener"
-            className="inline-flex items-center no-underline text-current font-semibold"
-          >
-            <span className="mr-2">Desenvolvido por</span>
-            <span className="mr-2">
-              <Vercel />
-            </span>
-          </a>
-        );
-      case "ja":
-        return (
-          <a
-            href="https://vercel.com/?utm_source=swr_ja"
-            target="_blank"
-            rel="noopener"
-            className="inline-flex items-center no-underline text-current font-semibold"
-          >
-            <span className="mr-2">提供</span>
-            <span className="mr-2">
-              <Vercel />
-            </span>
-          </a>
-        );
-      case "ko":
-        return (
-          <a
-            href="https://vercel.com/?utm_source=swr_ko"
-            target="_blank"
-            rel="noopener"
-            className="inline-flex items-center no-underline text-current font-semibold"
-          >
-            <span className="mr-2">Powered by</span>
-            <span className="mr-2">
-              <Vercel />
-            </span>
-          </a>
-        );
-      case "ru":
-        return (
-          <a
-            href="https://vercel.com/?utm_source=swr_ru"
-            target="_blank"
-            rel="noopener"
-            className="inline-flex items-center no-underline text-current font-semibold"
-          >
-            <span className="mr-2">Работает на</span>
-            <span className="mr-2">
-              <Vercel />
-            </span>
-          </a>
-        );
       default:
         return (
           <a
@@ -253,11 +156,6 @@ export default {
   },
   i18n: [
     { locale: "en-US", text: "English" },
-    { locale: "es-ES", text: "Español" },
-    { locale: "zh-CN", text: "简体中文" },
-    { locale: "pt-BR", text: "Português Brasileiro" },
-    { locale: "ja", text: "日本語" },
-    { locale: "ko", text: "한국어" },
-    { locale: "ru", text: "Русский" },
+    { locale: "hi-IN", text: "हिन्दी" },
   ],
 };
